@@ -706,7 +706,11 @@ footer .footer-copyright {
     .img-container .overlay a {
         font-size: 1.25rem;
     }
-
+    
+    #despre-section .row:last-child .col-4 {
+        margin: 5%;
+    }
+    
     #proiecte-section .filters {
         display: block;
     }
