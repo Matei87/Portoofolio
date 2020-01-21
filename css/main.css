@@ -519,7 +519,7 @@ button:focus {
 
 #proiecte-section button.btn {
     background-color: whitesmoke;
-    
+    border: none;
     padding: 10px 20px; margin: 1%; border-radius: 20px;
     display: flex; justify-content: center; align-items: center;
     transition: all 0.4s ease 0s;
@@ -527,12 +527,12 @@ button:focus {
 
 #proiecte-section button.btn:hover {
     cursor: pointer; background-color: #facd3d;
-    transition: all 0.4s ease; 
+    transition: all 0.4s ease;  border: none;
 }
 
 #proiecte-section .filters button.active {
     background-color: #facd3d; color: whitesmoke;
-    
+    border: none;
 }
 
 #proiecte-section .filters button.active:hover span {
