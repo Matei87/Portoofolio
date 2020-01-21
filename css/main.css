@@ -519,20 +519,20 @@ button:focus {
 
 #proiecte-section button.btn {
     background-color: whitesmoke;
-    border: 2px solid #facd3d;
-    padding: 10px 25px; margin: 1%; border-radius: 20px;
+    
+    padding: 10px 20px; margin: 1%; border-radius: 20px;
     display: flex; justify-content: center; align-items: center;
     transition: all 0.4s ease 0s;
 }
 
 #proiecte-section button.btn:hover {
     cursor: pointer; background-color: #facd3d;
-    transition: all 0.4s ease; border: 2px solid #facd3d;
+    transition: all 0.4s ease; 
 }
 
 #proiecte-section .filters button.active {
     background-color: #facd3d; color: whitesmoke;
-    //border: 2px solid rgba(24, 24, 24, 0.7);
+    
 }
 
 #proiecte-section .filters button.active:hover span {
