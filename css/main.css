@@ -1,7 +1,7 @@
 /*------------------------------------------------------
 Table of content
 --------------------------------------------------------
-*--> Header Area Style
+*--> Default Style
 *--> Main Navigation Section Style
 *--> Full Page Intro Section Style
 *--> About Section Style
@@ -12,6 +12,24 @@ Table of content
 *--> Footer Section Style
 ------------------------------------------------------*/
 
+
+/*
+-------------------------------------------
+   Default Style
+-------------------------------------------
+*/
+
+html {
+    height: 100%; margin: 0; padding: 0;
+}
+
+body {
+    font-family: "Comic Sans MS", sans-serif;
+    font-size: 14px;
+    position: relative;
+    margin: 0; padding: 0;
+    min-height: 100%;
+}
 
 h1,
 h2,
@@ -49,26 +67,6 @@ p {
     font-weight: 500 !important;
     font-size: 16px;
 }
-
-/*
--------------------------------------------
-   Default Style
--------------------------------------------
-*/
-
-html {
-    height: 100%; margin: 0; padding: 0;
-}
-
-body {
-    font-family: "Comic Sans MS", sans-serif;
-    font-size: 14px;
-    position: relative;
-    margin: 0; padding: 0;
-    min-height: 100%;
-}
-
-
 
 .btn:focus  {
     box-shadow: none !important;
