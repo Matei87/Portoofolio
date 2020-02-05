@@ -66,7 +66,7 @@ $(document).ready(function() {
 
 
 // FILTER PROJECTS BASED ON THE VALUE OF DATA-FILTER ATTRIBUTE
-$(document).ready(function() {
+
 $(window).on('load', function(){
 
     let $projects = $('.grid');
@@ -93,5 +93,5 @@ $(window).on('load', function(){
     });
 
 });
-});
+
 
