@@ -556,7 +556,7 @@ button:focus {
 #interests-section {
     background: rgba(0, 34, 68, 0.8);
     background-size: inherit;
-    min-height: 400px; padding-top: 4rem; //padding-bottom: 5rem;
+    min-height: 400px; padding-top: 4rem; 
 }
 
 #interests-section span.dot {
@@ -656,7 +656,7 @@ footer .text-left a:hover {
 /* FOOTER LINKURI */
 footer #linkuri {
     display: flex; flex-direction: column;
-    text-align: left; padding-left: 39%;
+    text-align: left; padding-left: 43%;
 }
 
 footer #linkuri li {
