@@ -8,7 +8,7 @@ Table of content
 *--> Skills Section Style
 *--> Services Section Style
 *--> Proiecte Section Style
-*--> Contact Section Style
+*--> Interests Section Style
 *--> Footer Section Style
 ------------------------------------------------------*/
 
@@ -549,33 +549,45 @@ button:focus {
 
 /*
 -------------------------------------------
-  Contact Section Style
+  Interests Section Style
 -------------------------------------------
 */
 
-#contact-section {
-    background: rgba(0, 34, 68, 0.8) url("../img/map.png") no-repeat fixed center;
+#interests-section {
+    background: rgba(0, 34, 68, 0.8);
     background-size: inherit;
-    min-height: 400px; padding-top: 4rem; padding-bottom: 5rem;
+    min-height: 400px; padding-top: 4rem; //padding-bottom: 5rem;
 }
 
-#contact-section .row:first-child {
-        padding-bottom: 7rem;
-}
-
-#contact-section span.dot {
+#interests-section span.dot {
     display: inline-block; position: relative; top: 5px; left: 6px;
     border-radius: 50%;
     background-color: #facd3d;
     height: 10px; width: 10px;
 }
 
-#contact-section input {
-    height: 45px;
+#interests-section .container {
+    padding-top: 5%;
 }
 
-#contact-section textarea {
-    height: 168px;
+#interests-section .row:last-child {
+        padding-bottom: 7rem;
+}
+
+#interests-section img {
+    width: 100%; height: 100%;
+}
+
+#interests-section .row {
+    display: flex; justify-content: center; align-items: center;
+}
+
+#interests-section .row .col-md-6 p {
+    padding: 1% 5%;
+}
+
+#interests-section .row .col-md-6 h4 {
+    padding: 5% 5% 1%;
 }
 
 
@@ -591,7 +603,7 @@ footer {
     background: rgba(0, 34, 68, 0.2);
 }
 
-footer .row .col-md-4 {
+footer .row .col-md-6 {
     text-align: center;
 }
 
@@ -659,20 +671,6 @@ footer #linkuri .fas {
     color: whitesmoke;
 }
 
-
-/* FOOTER ADRESA */
-
-footer #adresa .fas {
-    font-size: 25px;
-    color: whitesmoke;
-    margin: 0 48px;
-    padding: 0 16px;
-}
-
-footer #adresa p {
-    font-weight: 600; font-size: 18px;
-}
-
 footer .footer-copyright {
     background: #869397;
     font-weight: 600; color: rgba(24, 24, 24, 0.7);
@@ -710,16 +708,25 @@ footer .footer-copyright {
     }
     
     #proiecte-section .filters {
-        display: block;
+        display: block; margin-left: 15%;
     }
 
     #proiecte-section button.btn {
-        width: 50%;
+        width: 50%; display: inline;
     }
 
     #proiecte-section .filters .active {
         background-color: #facd3d;
     }
+   
+    #interests-section .row:nth-child(2) .col-md-6:nth-child(1) {
+        order: 2;
+    }
+
+    #interests-section .row:nth-child(2) .col-md-6:nth-child(2) {
+        order: 1;
+    }
+
 }
 /* SMALL */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -752,6 +759,15 @@ footer .footer-copyright {
     #proiecte-section button.btn {
         width: 25%;
     }
+   
+     #interests-section .row:nth-child(2) .col-md-6:nth-child(1) {
+        order: 2;
+    }
+
+    #interests-section .row:nth-child(2) .col-md-6:nth-child(2) {
+        order: 1;
+    }
+   
 }
 
 /* MEDIUM */
