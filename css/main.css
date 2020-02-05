@@ -292,10 +292,6 @@ button:focus {
     text-align: justify; line-height: 32px;
 }
 
-#skills-section .container h1 {
-    font-size: 35px; margin-bottom: 2rem;
-}
-
 #skills-section span.dot {
     display: inline-block; position: relative; top: 5px; left: 6px;
     border-radius: 50%;
