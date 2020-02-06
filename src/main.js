@@ -81,9 +81,9 @@ $(window).on('load', function(){
     }
     });
 
-    $('button').on('click', function(e){
+    $('#proiecte-section button').on('click', function(e){
 
-        $('button').removeClass('active');
+        $('#proiecte-section button').removeClass('active');
         $(this).addClass('active');
 
         let filter = $(this).attr('data-filter');
