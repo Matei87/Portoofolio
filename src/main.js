@@ -31,7 +31,7 @@ $(window).scroll(function(event) {
 $(document).on('click', 'a[href^="#"]', function (even) {
 
     $('html, body').animate({
-        scrollTop: $($.attr(this, 'href')).offset().top - 81
+        scrollTop: $($.attr(this, 'href')).offset().top - 80
     }, 1000);
 
     even.preventDefault();
