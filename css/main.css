@@ -582,6 +582,10 @@ button:focus {
    margin-top: 1%;
 }
 
+#interests-section p::first-letter {
+    margin-left: 5%;
+}
+
 #interests-section .container {
     padding-top: 5%;
 }
