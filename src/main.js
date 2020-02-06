@@ -26,6 +26,15 @@ $(window).scroll(function(event) {
     event.preventDefault();
 });
 
+$(document).ready( function () {
+
+let toggle = document.querySelector(".navbar-toggler");
+let mainNavigation = document.querySelector("#main-navigation");
+toggle.addEventListener('click', function () {
+     mainNavigation.classList.toggle('acti');
+
+});
+});
 
 // Animation Menu Navbar on Click
 $(document).on('click', 'a[href^="#"]', function (even) {
