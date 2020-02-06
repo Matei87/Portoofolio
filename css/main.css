@@ -121,6 +121,22 @@ button:focus {
     list-style: none;
 }
 
+#main-navigation .fas {
+    font-size: 26px;
+}
+#main-navigation .fa-bars {
+    display: block;
+}
+#main-navigation .fa-times {
+    display: none;
+}
+#main-navigation.acti .fa-bars {
+    display: none;
+}
+#main-navigation.acti .fa-times {
+    display: block;
+}
+
 #main-navigation .navbar-nav a.nav-link.active {
     color: #facd3d !important;
 }
