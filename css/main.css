@@ -726,6 +726,15 @@ footer .social .fa-github:hover {
         order: 1;
     }
 
+     footer .copyright {
+        display: none;
+    }
+
+    footer .social {
+        display: flex; justify-content: center;
+        width: 100%;
+    }
+   
 }
 /* SMALL */
 @media (min-width: 576px) and (max-width: 767.98px) {
@@ -765,6 +774,15 @@ footer .social .fa-github:hover {
 
     #interests-section .row:nth-child(2) .col-md-6:nth-child(2) {
         order: 1;
+    }
+   
+    footer .copyright {
+        display: none;
+    }
+
+    footer .social {
+        display: flex; justify-content: center;
+        width: 100%;
     }
    
 }
