@@ -687,13 +687,12 @@ footer .social .fa-github:hover {
         padding-bottom: 26rem;
     }
 
-    #main-navigation, #main-navigation button i, #main-navigation .navbar-nav .nav-item .nav-link, #main-navigation .navbar-brand {
+    body #main-navigation, body #main-navigation button i, body #main-navigation .navbar-nav .nav-item .nav-link, body #main-navigation .navbar-brand {
         color: whitesmoke;
-        background-color: #002244;
-        transition: 0.3s ease-in;
+        background-color: #002244; transition: 0.3s ease-in;
     }
 
-    #main-navigation.scrolled, #main-navigation.scrolled button i, #main-navigation.scrolled .navbar-nav .nav-item .nav-link, #main-navigation.scrolled .navbar-brand {
+    body #main-navigation.scrolled, body #main-navigation.scrolled button i, body #main-navigation.scrolled .navbar-nav .nav-item .nav-link, body #main-navigation.scrolled .navbar-brand {
         color: whitesmoke;
         background-color: #002244;
     }
@@ -737,20 +736,19 @@ footer .social .fa-github:hover {
    
 }
 /* SMALL */
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (max-width: 767.98px) {
 
     #home-section {
         padding-top: 18rem;
         padding-bottom: 25.5rem;
     }
 
-    #main-navigation, #main-navigation button i, #main-navigation .navbar-nav .nav-item .nav-link, #main-navigation .navbar-brand {
+    body #main-navigation, body #main-navigation button i, body #main-navigation .navbar-nav .nav-item .nav-link, body #main-navigation .navbar-brand {
         color: whitesmoke;
-        background-color: #002244;
-        transition: 0.3s ease-in;
+        background-color: #002244; transition: 0.3s ease-in;
     }
 
-    #main-navigation.scrolled, #main-navigation.scrolled button i, #main-navigation.scrolled .navbar-nav .nav-item .nav-link, #main-navigation.scrolled .navbar-brand {
+    body #main-navigation.scrolled, body #main-navigation.scrolled button i, body #main-navigation.scrolled .navbar-nav .nav-item .nav-link, body #main-navigation.scrolled .navbar-brand {
         color: whitesmoke;
         background-color: #002244;
     }
@@ -788,19 +786,19 @@ footer .social .fa-github:hover {
 }
 
 /* MEDIUM */
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (max-width: 991.98px) {
 
     #home-section {
         padding-top: 18rem;
         padding-bottom: 26rem;
     }
 
-    #main-navigation, #main-navigation button i, #main-navigation .navbar-nav .nav-item .nav-link, #main-navigation .navbar-brand {
+    body #main-navigation, body #main-navigation button i, body #main-navigation .navbar-nav .nav-item .nav-link, body #main-navigation .navbar-brand {
         color: whitesmoke;
         background-color: #002244; transition: 0.3s ease-in;
     }
 
-    #main-navigation.scrolled, #main-navigation.scrolled button i, #main-navigation.scrolled .navbar-nav .nav-item .nav-link, #main-navigation.scrolled .navbar-brand {
+    body #main-navigation.scrolled, body #main-navigation.scrolled button i, body #main-navigation.scrolled .navbar-nav .nav-item .nav-link, body #main-navigation.scrolled .navbar-brand {
         color: whitesmoke;
         background-color: #002244;
     }
@@ -827,7 +825,7 @@ footer .social .fa-github:hover {
 }
 
 /* LARGE */
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (max-width: 1199.98px) {
 
     #home-section {
         padding-top: 18rem;
