@@ -280,11 +280,18 @@ button:focus {
     color: rgba(24, 24, 24, 0.7);
 }
 
-#skills-section h1 {
-   margin-top: 1%;
+#skills-section span.dot {
+    display: inline-block; position: relative; top: 5px; left: 6px;
+    border-radius: 50%;
+    background-color: #facd3d;
+    height: 10px; width: 10px;
 }
 
-#skills-section .col-sm-6 {
+#skills-section h1 {
+    margin-top: 1%;
+}
+
+#skills-section .col-md-6 {
     padding: 5% 3%;
 }
 
@@ -296,69 +303,22 @@ button:focus {
     text-align: center; padding-bottom: 5%;
 }
 
-#skills-section .col-sm-6:first-child p {
+#skills-section .container .col-md-6 p {
     text-align: justify; line-height: 32px;
 }
-
-#skills-section span.dot {
-    display: inline-block; position: relative; top: 5px; left: 6px;
-    border-radius: 50%;
-    background-color: #facd3d;
-    height: 10px; width: 10px;
+#skills-section .container .col-md-6:last-child {
+    margin-top: 3%;
+}
+#skills-section .container .col-md-6:last-child .pazvas {
+     margin-bottom: 1%;
 }
 
-#skills-section .col-sm-6:last-child .pazvas {
-     margin-bottom: 5%;
-}
-
-#skills-section .col-sm-6:last-child .pazvas span:nth-child(odd) {
+#skills-section .col-6:last-child .pazvas span {
     float: left;
 }
 
-#skills-section .col-sm-6:last-child .pazvas span:nth-child(even) {
-    float: right;
-}
-
-#skills-section .progress { clear: left;
-    line-height: 15px;
-    border-radius: 15px;
-    background: rgba(24, 24, 24, 0.7);
-    margin-bottom: 10px;
-    box-shadow: none;
-    overflow: visible;
-    height: 5px;
-}
-
-#skills-section .progress .progress-bar {
-    background-color: #facd3d; font-size: 5px; border-radius: 15px;
-    height: 100%;
-
-    -webkit-transition: 4s ease;
-    transition: 4s ease;
-}
-
-#skills-section  .progress-do {
-    position: relative; font-size: 15px;
-    top: 5px; right: 5px; opacity: 0;
-    display: flex; justify-content: center; align-items: center;
-
-    //-webkit-animation: animate-positive ease;
-    //animation: animate-positive ease;
-
-    -webkit-transition: 6s ease;
-    transition: 6s ease;
-}
-
-@-webkit-keyframes animate-positive {
-    0% {
-        width: 0;
-    }
-}
-
-@keyframes animate-positive {
-    0% {
-        width: 0;
-    }
+#skills-section .radial-progress {
+    position: relative;
 }
 
 
@@ -705,6 +665,26 @@ footer .social .fa-github:hover {
         margin: 5%;
     }
     
+    #skills-section .container .col-md-6:first-child p {
+        text-align: justify; line-height: 32px;
+    }
+   
+    #skills-section .container .row div.col-md-6:nth-child(2) {
+        margin: 2%;
+    }
+   
+    #skills-section .container div.col-md-6:last-child .pazvas {
+        margin-bottom: 2%;
+    }
+   
+    #skills-section .container div.col-md-6:last-child .pazvas span {
+        float: left;
+    }
+   
+    #skills-section .container .radial-progress {
+        position: relative;
+    }
+   
     #proiecte-section .filters {
         display: block; margin-left: 15%;
     }
@@ -762,6 +742,26 @@ footer .social .fa-github:hover {
         padding-bottom: 5rem;
     }
 
+    #skills-section .container div.col-md-6 p {
+        text-align: justify; line-height: 32px;
+    }
+   
+    #skills-section .container div.col-md-6:last-child {
+        margin: 0; padding: 0;
+    }
+   
+    #skills-section .container .col-md-6:last-child .pazvas .progress-title {
+        margin-bottom: 5px;
+    }
+
+    #skills-section .container .col-md-6:last-child .pazvas span {
+        float: left;
+    }
+   
+    #skills-section .container .radial-progress {
+        position: relative;
+    }
+   
     #proiecte-section button.btn {
         width: 25%;
     }
@@ -811,6 +811,26 @@ footer .social .fa-github:hover {
         padding-bottom: 15.1rem;
     }
 
+    #skills-section .container .col-md-6 p {
+        text-align: justify; line-height: 32px;
+    }
+   
+    #skills-section .container div.col-md-6:last-child {
+        margin-top: 10%; line-height: 30px;
+    }
+   
+    #skills-section .container .col-md-6:last-child .pazvas .progress-title {
+        margin-bottom: 2%;
+    }
+   
+    #skills-section .container .col-md-6:last-child .pazvas span {
+        float: left;
+    }
+   
+    #skills-section .container .radial-progress {
+        position: relative;
+    }
+   
     #proiecte-section {
         padding-bottom: 3rem;
     }
@@ -842,6 +862,22 @@ footer .social .fa-github:hover {
         background-color: #002244;
     }
 
+   #skills-section .container .col-md-6:last-child {
+        margin-top: 4%; line-height: 25px;
+    }
+   
+    #skills-section .container .col-md-6:last-child .pazvas .progress-title {
+        margin: 0;
+    }
+   
+    #skills-section .container .col-md-6:last-child .pazvas span {
+        float: left;
+    }
+   
+    #skills-section .container .radial-progress {
+        position: relative;
+    }
+   
     .img-container .overlay a {
         font-size: 1.15rem;
     }
@@ -858,7 +894,22 @@ footer .social .fa-github:hover {
         padding-top: 18rem;
         padding-bottom: 26rem;
     }
+   
+    #skills-section div.col-md-6:last-child {
+        margin-top: 4%;
+    }
+   
+    #skills-section .col-md-6:last-child .pazvas .progress-title {
+        margin-bottom: 5px;
+    }
 
+    #skills-section .col-md-6:last-child .pazvas span {
+        float: left;
+    }
+   
+    #skills-section .radial-progress {
+        position: relative;
+    }
 }
 
 
