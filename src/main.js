@@ -94,4 +94,57 @@ $(window).on('load', function(){
 
 });
 
+enableRadialProgress();
+function enableRadialProgress(){
 
+    $(".radial-progress").each(function(){
+        let $this = $(this);
+        let  progPercent = $this.data('prog-percent');
+
+        let bar = new ProgressBar.Line(this, {
+            color: 'rgba(24, 24, 24, 0.7)',
+            strokeWidth: 0.8,
+            trailWidth: 0.8,
+            trailColor: 'rgba(24, 24, 24, 0.7)',
+            easing: 'easeInOut',
+            duration: 1800,
+            text: {
+                style: {
+                    // Text color.
+                    fontFamily: '"Comic Sans MS", sans serif',
+                    fontWeight: '500',
+                    fontSize: '16px',
+                    color: 'rgba(24, 24, 24, 0.7)',
+                    position: 'absolute',
+                    right: '0',
+                    top: '-5px',
+                    padding: 0,
+                    margin: 0,
+                    transform: null
+                },
+                autoStyleContainer: false
+
+            },
+            from: { color: '#facd3d', width: 1 },
+            to: { color: '#facd3d', width: 1 },
+            // Set default step function for all animate calls
+            step: function(state, shape) {
+                shape.path.setAttribute('stroke', state.color);
+                shape.path.setAttribute('stroke-width', state.width);
+
+                let value = (Math.round(shape.value() * 100) + '%');
+                if (value === 0) {
+                    shape.setText('');
+                } else {
+                    shape.setText(value);
+                }
+
+            }
+        });
+
+        $(this).waypoint(function(){
+            bar.animate(progPercent);
+        },{offset: "90%"})
+
+    });
+}
