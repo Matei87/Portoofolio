@@ -644,7 +644,7 @@ footer .social .fa-github:hover {
 
     #home-section {
         padding-top: 18rem;
-        padding-bottom: 26rem;
+        padding-bottom: 10rem;
     }
 
     body #main-navigation, body #main-navigation button i, body #main-navigation .navbar-nav .nav-item .nav-link, body #main-navigation .navbar-brand {
@@ -739,7 +739,6 @@ footer .social .fa-github:hover {
 
     #despre-section {
         padding-top: 4rem;
-        padding-bottom: 5rem;
     }
 
     #skills-section .container div.col-md-6 p {
@@ -805,10 +804,6 @@ footer .social .fa-github:hover {
 
     .img-container .overlay a {
         font-size: 1.25rem;
-    }
-
-    #despre-section {
-        padding-bottom: 15.1rem;
     }
 
     #skills-section .container .col-md-6 p {
