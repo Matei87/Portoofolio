@@ -81,7 +81,7 @@ button:focus {
    Main Navigation Section Style
 -------------------------------------------
 */
-#main-navigation {
+body #main-navigation {
     position: fixed; top: 0;
     width: 100%;
     z-index: 99;
@@ -130,8 +130,8 @@ button:focus {
     background-color: transparent;
 }
 
-#main-navigation.scrolled {
-    background-color: #002244 !important;
+body #main-navigation.scrolled {
+    background-color: #002244;
 }
 
 #main-navigation.scrolled .navbar-nav .nav-item .nav-link, #main-navigation.scrolled .navbar-brand {
@@ -890,6 +890,14 @@ footer .social .fa-github:hover {
         padding-bottom: 26rem;
     }
    
+    body #main-navigation {
+        background-color: transparent;
+    }
+
+    body #main-navigation.scrolled {
+        background-color: #002244;
+    }
+   
     #skills-section div.col-md-6:last-child {
         margin-top: 4%;
     }
@@ -906,5 +914,3 @@ footer .social .fa-github:hover {
         position: relative;
     }
 }
-
-
