@@ -38,7 +38,6 @@ h4,
 h5,
 h6 {
     color: rgba(24, 24, 24, 0.7);
-    //font-family: 'Roboto', sans-serif;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-weight: 900;
     text-decoration: none;
@@ -645,14 +644,14 @@ footer .social .fa-github:hover {
    p {
     color: rgba(24, 24, 24, 0.7);
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-weight: 600 !important;
+    font-weight: 800 !important;
     font-size: 16px;
    }
    
    span {
     color: rgba(24, 24, 24, 0.7);
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-weight: 600;
+    font-weight: 800 !important;
     font-size: 16px;
    }
    
