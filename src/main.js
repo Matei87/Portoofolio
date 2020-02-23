@@ -14,7 +14,7 @@ window.onscroll = function () {
 
 
 // Collapse Navbar
-$(window).scroll(function(event) {
+$(window).scroll(function() {
 
     let $maineNav = $("#main-navigation");
 
@@ -23,7 +23,7 @@ $(window).scroll(function(event) {
     } else {
         $maineNav.removeClass("scrolled");
     }
-    event.preventDefault();
+    
 });
 
 
