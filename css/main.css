@@ -131,7 +131,7 @@ body #main-navigation {
 }
 
 body #main-navigation.scrolled {
-    background-color: #002244;
+    background-color: #002244 !important;
 }
 
 #main-navigation.scrolled .navbar-nav .nav-item .nav-link, #main-navigation.scrolled .navbar-brand {
@@ -889,13 +889,9 @@ footer .social .fa-github:hover {
         padding-top: 18rem;
         padding-bottom: 26rem;
     }
-   
-    body #main-navigation {
-        background-color: transparent;
-    }
 
     body #main-navigation.scrolled {
-        background-color: #002244;
+        background-color: #002244 !important;
     }
    
     #skills-section div.col-md-6:last-child {
