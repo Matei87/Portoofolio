@@ -65,7 +65,7 @@ span {
 p {
     color: rgba(24, 24, 24, 0.7);
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-weight: 500 !important;
+    font-weight: 500;
     font-size: 16px;
 }
 
@@ -646,6 +646,13 @@ footer .social .fa-github:hover {
     color: rgba(24, 24, 24, 0.7);
     font-family: "Comic Sans MS", "Comic Sans", cursive;
     font-weight: 600 !important;
+    font-size: 16px;
+   }
+   
+   span {
+    color: rgba(24, 24, 24, 0.7);
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight: 600;
     font-size: 16px;
    }
    
