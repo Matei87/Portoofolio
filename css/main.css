@@ -487,10 +487,10 @@ body #main-navigation.scrolled {
     display: flex; justify-content: center;
 }
 
-#proiecte-section button.btn {
+#proiecte-section .filters button.btn {
     background-color: whitesmoke;
     border: none;
-    padding: 8px 15px; margin: 1%; border-radius: 20px;
+    padding: 10px 30px; margin: 1%; border-radius: 20px;
     display: flex; justify-content: center; align-items: center;
     transition: all 0.4s ease 0s;
 }
@@ -699,11 +699,7 @@ footer .social .fa-github:hover {
     }
    
     #proiecte-section .filters {
-        display: block; margin-left: 15%;
-    }
-
-    #proiecte-section button.btn {
-        width: 35%; display: inline;
+        display: flex; justify-content: center;
     }
 
     #proiecte-section .filters .active {
