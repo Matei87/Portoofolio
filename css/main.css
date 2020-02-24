@@ -702,6 +702,10 @@ footer .social .fa-github:hover {
         display: flex; justify-content: center;
     }
 
+    #proiecte-section .filters button.btn {
+        padding: 10px 35px;
+    }
+   
     #proiecte-section .filters .active {
         background-color: #facd3d;
     }
