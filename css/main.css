@@ -6,7 +6,6 @@ Table of content
 *--> Full Page Intro Section Style
 *--> About Section Style
 *--> Skills Section Style
-*--> Services Section Style
 *--> Proiecte Section Style
 *--> Interests Section Style
 *--> Footer Section Style
@@ -367,73 +366,6 @@ body #main-navigation.scrolled {
 
 #skills-section .radial-progress {
     position: relative;
-}
-
-
-/*
--------------------------------------------
-   Services Section Style
--------------------------------------------
-*/
-
-
-#services {
-    padding-top: 4rem; padding-bottom: 5rem;
-    background-color: whitesmoke;
-}
-
-#services span.dot {
-    display: inline-block; position: relative; top: 5px; left: 6px;
-    border-radius: 50%;
-    background-color: #facd3d;
-    height: 10px; width: 10px;
-}
-
-#services h1 {
-   margin-top: 1%;
-}
-
-#services .container > .row {
-    margin: 0;
-}
-
-#services .container {
-    margin-top: 3%;
-    text-align: center;
-    color: rgba(24, 24, 24, 0.7);
-}
-
-#services .container > h4 {
-    background-color: rgba(0, 34, 68, 0.8); color: whitesmoke;
-    padding: 15px 0; margin-top: 3%; text-align: center;
-}
-
-#services .container .col-md-3 { height: 360px;
-    padding: 0; margin: 4%; border: 1px solid rgba(0, 34, 68, 0.8);
-    transition: top .3s ease-in; top: 0;
-    display: flex; align-content: stretch; flex-direction: column; justify-content: center;
-}
-
-
-#services .container .col-md-3 > i { height: 150px;
-    font-size: 40px; color: rgba(0, 34, 68, 0.8); padding: 0;
-    display: flex; align-items: center; justify-content: center;
-}
-
-#services .container .col-md-3 > h4 {
-    background-color: rgba(0, 34, 68, 0.8); color: whitesmoke;
-    padding: 15px 0; font-size: 19px; margin: 0;
-}
-
-#services .container .col-md-3 > span { height: 150px;
-    line-height: 22px;  text-align: justify;
-    padding: 5% 5% 0;
-}
-
-#services .container .col-md-3:hover {
-    top: -10px; box-shadow: 0 0 11px rgba(24, 24, 24, 0.7);
-    transition: top 0.3s ease-in;
-    cursor: pointer;
 }
 
 /*
