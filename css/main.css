@@ -644,7 +644,7 @@ footer .social .fa-github:hover {
         padding-bottom: 10rem;
     }
 
-     #home-section h1, span {
+     #home-section h1 {
         color: rgba(255, 255, 255, 0.6);
     }
    
@@ -727,9 +727,9 @@ footer .social .fa-github:hover {
         padding-bottom: 25.5rem;
     }
 
-    #home-section h1, span {
-        color: rgba(255, 255, 255, 0.6);
-    }
+   #home-section h1, #home-section span {
+    color: rgba(255, 255, 255, 0.6);
+   }
    
     body #main-navigation, body #main-navigation button i, body #main-navigation .navbar-nav .nav-item .nav-link, body #main-navigation .navbar-brand {
         color: whitesmoke;
