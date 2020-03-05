@@ -731,6 +731,19 @@ footer .social .fa-github:hover {
     color: rgba(255, 255, 255, 0.6);
    }
    
+    #home-section div.col-8:last-child span:last-child {
+        border-right: 3px solid rgba(255, 255, 255, 0.6);
+    }
+    
+    @keyframes textCursor {
+        from, to {
+            border-right-color: transparent;
+        }
+        50% {
+            border-right-color: rgba(255, 255, 255, 0.6);
+        }
+    }
+   
     body #main-navigation, body #main-navigation button i, body #main-navigation .navbar-nav .nav-item .nav-link, body #main-navigation .navbar-brand {
         color: whitesmoke;
         background-color: #002244; transition: 0.3s ease-in;
