@@ -644,6 +644,10 @@ footer .social .fa-github:hover {
         padding-bottom: 10rem;
     }
 
+     #home-section h1, span {
+        color: rgba(255, 255, 255, 0.6);
+    }
+   
    #home-section div.col-8:last-child {
        display: none;
    }
