@@ -708,6 +708,9 @@ footer .social .fa-github:hover {
         padding-bottom: 10rem;
     }
 
+   #home-section div.col-8:last-child {
+       display: none;
+   }
     body #main-navigation, body #main-navigation button i, body #main-navigation .navbar-nav .nav-item .nav-link, body #main-navigation .navbar-brand {
         color: whitesmoke;
         background-color: #002244; transition: 0.3s ease-in;
