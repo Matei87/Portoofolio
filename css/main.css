@@ -727,6 +727,10 @@ footer .social .fa-github:hover {
         padding-bottom: 25.5rem;
     }
 
+    #home-section h1, span {
+        color: rgba(255, 255, 255, 0.6);
+    }
+   
     body #main-navigation, body #main-navigation button i, body #main-navigation .navbar-nav .nav-item .nav-link, body #main-navigation .navbar-brand {
         color: whitesmoke;
         background-color: #002244; transition: 0.3s ease-in;
