@@ -193,7 +193,7 @@ body #main-navigation.scrolled {
 
 #home-section div.col-8:last-child span:last-child {
     border-right: 3px solid rgba(24, 24, 24, 0.7);
-    width: 17rem;
+    width: 20rem;
     margin: 0 auto;
     overflow: hidden;
     white-space: nowrap;
@@ -208,7 +208,7 @@ body #main-navigation.scrolled {
             width: 0;
         }
     60%, 90% {
-            width: 17rem;
+            width: 20rem;
         }
 }
 
