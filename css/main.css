@@ -385,7 +385,7 @@ body #main-navigation.scrolled {
 }
 
 #proiecte-section p {
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     text-align: center;
 }
 
@@ -471,8 +471,12 @@ body #main-navigation.scrolled {
     background-color: whitesmoke;
     border: none;
     padding: 10px 30px; margin: 1%; border-radius: 20px;
-    display: flex; justify-content: center; align-items: center;
+    display: flex; justify-content: center;
     transition: all 0.4s ease 0s;
+}
+
+#proiecte-section .filters button.btn span {
+    margin: 0 auto;
 }
 
 #proiecte-section button.btn:hover {
