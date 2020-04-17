@@ -76,7 +76,7 @@ button:focus {
 }
 
 * .slideup {
-    transform: translate(0, 100px);
+    transform: translate(0, 50px);
 }
 
 * .hide {
