@@ -148,3 +148,19 @@ function enableRadialProgress(){
 
     });
 }
+
+$(window).scroll(function () {
+    let pageTop = $(window).scrollTop();
+    let pageBottom = pageTop + $(window).height();
+    let hide = $(".hide");
+
+    for (let i = 0; i < hide.length; i++) {
+        let tag = hide[i];
+
+        if ($(tag).position().top < pageBottom) {
+            $(tag).addClass("visible")
+        } else {
+            $(tag).removeClass("visible")
+        }
+    }
+})
