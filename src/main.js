@@ -60,7 +60,7 @@ $(document).ready(function() {
             animation: 'animate-positive 5s',
             opacity: '1'
         });
-    }, { offset: '80%' });
+    }, { offset: '90%' });
 
  });
 
