@@ -461,11 +461,15 @@ body #main-navigation.scrolled {
     border: none;
     font-size: 15px;
     text-transform: uppercase;
+    box-shadow: rgba(24, 24, 24, 0.7) 0 0 0 40px inset;
+    transition: all .4s cubic-bezier(0.390, 0.500, 0.150, 1.360);
 }
 
 #proiecte-section .img-container .overlay .btn:hover {
     color: rgba(24, 24, 24, 0.7); background-color: rgba(255, 255, 255, 0.9);
     font-weight: 600; border: none;
+    box-shadow: rgba(255, 255, 255, 0.9) 0 0 0 2px inset;
+    transition: all .4s cubic-bezier(0.390, 0.500, 0.150, 1.360);
 }
 
 #proiecte-section .row {
@@ -482,39 +486,40 @@ body #main-navigation.scrolled {
 }
 
 #proiecte-section .filters button.btn {
-    background-color: whitesmoke;
     border: none;
     padding: 10px 30px; margin: 1%; border-radius: 20px;
     display: flex; justify-content: center;
-    transition: all 0.4s ease 0s;
+    box-shadow: rgba(24, 24, 24, 0.7) 0 0 0 40px inset;
+    transition: all .4s cubic-bezier(0.390, 0.500, 0.150, 1.360);
 }
 
 #proiecte-section .filters button.btn span {
-    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.9);
+    /*margin: 0 auto;*/
+    display: flex; justify-content: center;
+    align-items: center;
 }
 
-#proiecte-section button.btn:hover {
+#proiecte-section .filters button.btn:hover {
     cursor: pointer; background-color: #facd3d;
-    transition: all 0.4s ease;  border: none;
-}
-
-#proiecte-section .filters button.active {
-    background-color: #facd3d; color: whitesmoke;
     border: none;
+    box-shadow: rgba(255, 255, 255, 0.9) 0 0 0 2px inset;
+    transition: all .4s cubic-bezier(0.390, 0.500, 0.150, 1.360);
 }
 
-#proiecte-section .filters button.active:hover span {
+#proiecte-section .filters button.btn:hover span {
     color: rgba(24, 24, 24, 0.7);
 }
 
-#proiecte-section button.btn span {color: rgba(24, 24, 24, 0.7);
-    display: flex; justify-content: center; align-items: center;
+#proiecte-section .filters button.active {
+    border: none; background-color: #facd3d;
+    box-shadow: rgba(255, 255, 255, 0.9) 0 0 0 2px inset;
+    transition: all 0s cubic-bezier(0.390, 0.500, 0.150, 1.360);
 }
 
-#proiecte-section button.btn:hover span {
-    color: whitesmoke;
+#proiecte-section .filters button.active span {
+    color: rgba(24, 24, 24, 0.7);
 }
-
 
 
 /*
