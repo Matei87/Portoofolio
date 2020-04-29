@@ -69,10 +69,10 @@ $(document).ready(function() {
 
 $(window).on('load', function(){
 
-    let $projects = $('.grid');
+    let $projects = $('.items');
 
     $projects.isotope({
-        itemSelector: '.grid-item',
+        itemSelector: '.item',
         layoutMode: 'fitRows',
         animationOptions: {
             duration: 750,
