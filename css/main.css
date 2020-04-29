@@ -75,20 +75,6 @@ button:focus {
     outline: none !important;
 }
 
-* .slideup {
-    transform: translate(0, 50px);
-}
-
-* .hide {
-    opacity: 0;
-    transition: all .5s ease-in-out;
-}
-
-* .hide.visible {
-    opacity: 1;
-    transform: translate(0, 0);
-}
-
 .wow {
     visibility: hidden;
 }
