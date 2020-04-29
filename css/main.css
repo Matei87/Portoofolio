@@ -89,6 +89,10 @@ button:focus {
     transform: translate(0, 0);
 }
 
+.wow {
+    visibility: hidden;
+}
+
 /*
 -------------------------------------------
    Main Navigation Section Style
