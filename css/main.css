@@ -935,4 +935,8 @@ footer .social .fa-github:hover {
     #skills-section .radial-progress {
         position: relative;
     }
+   
+    #proiecte-section button.btn {
+        width: 11%;
+    }
 }
