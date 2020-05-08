@@ -53,7 +53,6 @@ $(document).ready(function() {
 
 
 // FILTER PROJECTS BASED ON THE VALUE OF DATA-FILTER ATTRIBUTE
-
 $(window).on('load', function(){
 
     let $projects = $('.items');
