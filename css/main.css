@@ -231,23 +231,6 @@ body #main-navigation.scrolled {
     border: none;
 }
 
-/*  */
-#home-section .luna {
-    margin: 64px;
-    width: 600px;
-    max-width: 100%;
-}
-
-#home-section .luna .luna1 {
-    width: 70px; height: 70px;
-    position: absolute;
-    top: 3%; left: 5%;
-    border-radius: 100%; background: #fff;
-    box-shadow: 2px 4px 4px grey;
-}
-
-/*  */
-
 #home-section .container a .fas {
     color: rgba(255, 255, 255, 0.6); font-size: 1.5rem;
     position: relative; top: 8rem;
