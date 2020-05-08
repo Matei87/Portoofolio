@@ -1,18 +1,5 @@
 "use strict";
 
-// Scroll menu navbar on window/page Javascript
-/*
-window.onscroll = function () {
-    let mainNavigation = document.getElementById('main-navigation');
-    if (window.pageYOffset > 150) {
-        mainNavigation.style.background = "white";
-    } else {
-        mainNavigation.style.background = "transparent";
-    }
-};
- */
-
-
 // Collapse Navbar
 $(window).scroll(function() {
 
