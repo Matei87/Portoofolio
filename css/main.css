@@ -693,6 +693,10 @@ footer .social .fa-github:hover {
         background-color: #facd3d;
     }
    
+    #interests-section .row:last-child {
+        padding-bottom: 2rem;
+    }
+   
     #interests-section .row:nth-child(2) .col-md-6:nth-child(1) {
         order: 2;
     }
@@ -706,8 +710,10 @@ footer .social .fa-github:hover {
     }
 
     footer .social {
-        display: flex; justify-content: center;
-        width: 100%;
+        position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+    }
+    footer .social a:last-of-type {
+        margin-left: 10px;
     }
    
 }
