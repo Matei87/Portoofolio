@@ -343,11 +343,11 @@ body #main-navigation.scrolled {
 #skills-section .container .col-md-6:last-child {
     margin-top: 3%;
 }
-#skills-section .container .col-md-6:last-child .pazvas {
+#skills-section .container .col-md-6:last-child .progressbars {
      margin-bottom: 1%;
 }
 
-#skills-section .col-6:last-child .pazvas span {
+#skills-section .col-6:last-child .progressbars span {
     float: left;
 }
 
@@ -669,11 +669,11 @@ footer .social .fa-github:hover {
         margin: 2%;
     }
    
-    #skills-section .container div.col-md-6:last-child .pazvas {
+    #skills-section .container div.col-md-6:last-child .progressbars {
         margin-bottom: 2%;
     }
    
-    #skills-section .container div.col-md-6:last-child .pazvas span {
+    #skills-section .container div.col-md-6:last-child .progressbars span {
         float: left;
     }
    
@@ -768,11 +768,11 @@ footer .social .fa-github:hover {
         margin: 0; padding: 0;
     }
    
-    #skills-section .container .col-md-6:last-child .pazvas .progress-title {
+    #skills-section .container .col-md-6:last-child .progressbars .progress-title {
         margin-bottom: 5px;
     }
 
-    #skills-section .container .col-md-6:last-child .pazvas span {
+    #skills-section .container .col-md-6:last-child .progressbars span {
         float: left;
     }
    
@@ -833,11 +833,11 @@ footer .social .fa-github:hover {
         margin-top: 10%; line-height: 30px;
     }
    
-    #skills-section .container .col-md-6:last-child .pazvas .progress-title {
+    #skills-section .container .col-md-6:last-child .progressbars .progress-title {
         margin-bottom: 2%;
     }
    
-    #skills-section .container .col-md-6:last-child .pazvas span {
+    #skills-section .container .col-md-6:last-child .progressbars span {
         float: left;
     }
    
@@ -876,11 +876,11 @@ footer .social .fa-github:hover {
         margin-top: 4%; line-height: 25px;
     }
    
-    #skills-section .container .col-md-6:last-child .pazvas .progress-title {
+    #skills-section .container .col-md-6:last-child .progressbars .progress-title {
         margin: 0;
     }
    
-    #skills-section .container .col-md-6:last-child .pazvas span {
+    #skills-section .container .col-md-6:last-child .progressbars span {
         float: left;
     }
    
@@ -913,11 +913,11 @@ footer .social .fa-github:hover {
         margin-top: 4%;
     }
    
-    #skills-section .col-md-6:last-child .pazvas .progress-title {
+    #skills-section .col-md-6:last-child .progressbars .progress-title {
         margin-bottom: 5px;
     }
 
-    #skills-section .col-md-6:last-child .pazvas span {
+    #skills-section .col-md-6:last-child .progressbars span {
         float: left;
     }
    
