@@ -168,6 +168,7 @@ body #main-navigation.scrolled {
 #home-section h1 {
     margin-bottom: 0;
     padding-top: 48px;
+   color: rgba(255, 255, 255, 0.6);
 }
 
 #home-section div.col-8:last-child {
@@ -177,7 +178,7 @@ body #main-navigation.scrolled {
     display: block; font-size: 20px;
 }
 #home-section div.col-8:last-child span:first-child {
-    width: 2.5rem;
+    width: 2.5rem; color: rgba(255, 255, 255, 0.6);
     margin: 0 auto;
     overflow: hidden;
     white-space: nowrap;
@@ -196,7 +197,7 @@ body #main-navigation.scrolled {
 
 #home-section div.col-8:last-child span:last-child {
     border-right: 3px solid rgba(24, 24, 24, 0.7);
-    width: 20rem;
+    width: 20rem; color: rgba(255, 255, 255, 0.6);
     margin: 0 auto;
     overflow: hidden;
     white-space: nowrap;
@@ -220,13 +221,13 @@ body #main-navigation.scrolled {
             border-right-color: transparent;
         }
         50% {
-            border-right-color: rgba(24, 24, 24, 0.7);
+            border-right-color: rgba(255, 255, 255, 0.6);
         }
 }
 
 #home-section .row div.mb-4 div:last-child {
     display: inline; position: relative; left: 0; top: 25px;
-    overflow: visible; /* For IE */
+    overflow: visible;
     padding: 0;
     border: none;
 }
@@ -234,7 +235,6 @@ body #main-navigation.scrolled {
 #home-section .container a .fas {
     color: rgba(255, 255, 255, 0.6); font-size: 1.5rem;
     position: relative; top: 8rem;
-
     animation: arrow-down 1s ease-in infinite;
 }
 
