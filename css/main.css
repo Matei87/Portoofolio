@@ -23,7 +23,7 @@ html {
 }
 
 body {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     position: relative;
     margin: 0; padding: 0;
@@ -37,8 +37,8 @@ h4,
 h5,
 h6 {
     color: rgba(24, 24, 24, 0.7);
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
     text-decoration: none;
 }
 
@@ -48,21 +48,21 @@ h1 {
 
 a {
     color: rgba(24, 24, 24, 0.7);
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700 !important;
     text-decoration: none;
 }
 
 span {
     color: rgba(24, 24, 24, 0.7);
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
 }
 
 p {
     color: rgba(24, 24, 24, 0.7);
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
 }
