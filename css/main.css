@@ -92,6 +92,12 @@ body #main-navigation {
     line-height: 55px;
 }
 
+#main-navigation .navbar-brand {
+    font-style: italic; font-size: 24px;
+    font-weight: 700 !important;
+    letter-spacing: 1px;
+}
+
 #main-navigation .navbar-nav .nav-item {
     list-style-type: none;
 }
