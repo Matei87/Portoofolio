@@ -303,7 +303,7 @@ body #main-navigation.scrolled {
     margin: 0 0 5%;
 }
 
-#despre-section .row:last-child .col-4 {
+#despre-section .row:last-child .col-3 {
     text-align: center;
 }
 
@@ -619,7 +619,12 @@ footer .social .fa-github:hover {
     color: #211f1f;
 }
 
-/* media queries */
+
+/*
+-------------------------------------------
+  MEDIA QUERIES 
+-------------------------------------------
+*/
 
 /* EXTRA SMALL*/
 @media (max-width: 575.98px) {
@@ -658,10 +663,19 @@ footer .social .fa-github:hover {
         font-size: 1.25rem;
     }
     
-    #despre-section .row:last-child .col-4 {
-        margin: 5%;
+    #despre-section .row:last-child .col-3 {
+         max-width: 200px;
+        margin: 5% 7% 0; padding: 0;
     }
     
+    #despre-section .row:last-child .col-3 p {
+        text-align: center;
+    }
+   
+    #despre-section .row:last-child .col-3:last-of-type {
+        margin-left: 17%;
+    }
+   
     #skills-section .container .col-md-6:first-child p {
         text-align: justify; line-height: 32px;
     }
