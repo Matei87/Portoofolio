@@ -624,12 +624,10 @@ footer .social .fa-github:hover {
 /* EXTRA SMALL*/
 @media (max-width: 575.98px) {
    p {
-    font-weight: 800 !important;
     font-size: 16px;
    }
    
    span {
-    font-weight: 800 !important;
     font-size: 16px;
    }
    
